@@ -41,4 +41,4 @@ Inserendo il titolo di un libro sulla barra di ricerca sarà possibile visualizz
 
 - Progetto:
     * <https://github.com/FrancescoSangalli/Libreria>\
-    * <https://libreria.netlify.app>
+    * <https://libreria-g.netlify.app>

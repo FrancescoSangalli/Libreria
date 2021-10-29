@@ -1,0 +1,211 @@
+html { font-size: 10px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p { font-size: 1.6rem; }
+small { font-size: 1.2rem; }
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #335B96;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: "Caveat", sans-serif;
+  font-weight: 700;
+}
+
+.logo {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  height: auto;
+  width: 5rem;
+}
+
+.main, .book {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #966F33;
+  padding-bottom: 2rem;
+}
+
+.title {
+  font-size: 4.4rem;
+  font-family: "Fredoka One", sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 10rem;
+  color: #335B96;
+}
+
+.form {
+  padding: 40px;
+}
+
+.label {
+  font-size: 1.2rem;
+  margin-bottom: .2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.input {
+  font-size: 1.6rem;
+  padding: .5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #335B96;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  font-size: 1.4rem;
+}
+
+.button:hover {
+  background-color: rgb(51, 119, 206);
+  color: #fff;
+}
+
+.card {
+  margin: 5rem auto;
+  margin-bottom: 0;
+  width: 25rem;
+}
+
+.button2, .button-form {
+  font-size: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+.button2:hover, .button-form:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+}
+
+.footer {
+  width: 100%;
+  background-color: #335B96;
+}
+
+.form-control {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.fab {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.fab:hover {
+  color: gray;
+}
+
+.container-fluid a {
+  text-decoration: none;
+}
+
+.book {
+  align-items: center;
+  justify-content: center;
+}
+
+.paper {
+  width: 70%;
+  padding: 8rem;
+  background-color: lemonChiffon;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.paper div {
+  justify-content: center;
+}
+
+.cover {
+  width: 200px;
+  height: 333px;
+}
+
+.intro {
+  font-size: 4.4rem;
+  font-family: "Fredoka One", sans-serif;
+  color: #335B96;
+}
+
+@media (min-width: 786px) {
+  .form {
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+
+  .input { margin-bottom: 0; }
+}
+
+@media (max-width: 650px) {
+  .card {
+    width: 20rem;
+  }
+
+  .cover {
+    width: 150px;
+    height: 250px;
+  }
+
+  .intro { font-size: 3.6rem; }
+  .info h1 {  font-size: 1.8rem; }
+  .info p, .des {  font-size: 1.4rem; }
+  .paper a {  font-size: 1.2rem; }
+}
+
+@media (max-width: 570px) {
+
+  .paper { padding: 6rem; }
+
+  .cover {
+    width: 100px;
+    height: 167px;
+  }
+
+  .intro { font-size: 2.8rem; }
+  .info h1 {  font-size: 1.4rem; }
+  .info p, .des {  font-size: 1.2rem; }
+  .paper a {  font-size: 1.1rem; }
+}
+
+@media (max-width:470px) {
+  .book { min-height: 90vh; }
+
+  .cover {
+    width: 80px;
+    height: 134px;
+  }
+
+  .intro { font-size: 2.2rem; }
+  .info h1 {  font-size: 1.3rem; }
+  .info p, .des {  font-size: 1.1rem; }
+  .paper a {  font-size: 1rem; }
+}
+
+@media (max-width:370px) {
+  .paper { padding: 4rem; }
+
+  .intro { font-size: 1.8rem; }
+  .info h1 {  font-size: 1.2rem; }
+  .info p, .des {  font-size: 1rem; }
+}

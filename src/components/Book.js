@@ -7,7 +7,7 @@ function Book(props) {
   }, []);
 
   const [book, setBook] = useState([]);
-  const api_key = "AIzaSyDJO1NlxWu8dWzHHrWvR-QOwUdnSTJqTmY";
+  const api_key = process.env.REACT_APP_API_KEY;
   const fetchData = async () => {
     const id = props.match.params.id;
     try {

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function SearchBook() {
   const [book, setBook] = useState("");
   const [result, setResult] = useState([]);
-  const api_key = "AIzaSyDJO1NlxWu8dWzHHrWvR-QOwUdnSTJqTmY";
+  const api_key = process.env.REACT_APP_API_KEY;
 
   function handleChange(e) {
     const book = e.target.value;
